@@ -1,0 +1,22 @@
+
+path: data
+
+train: train/images
+val: val/images
+test: test/images
+
+names:
+  0: dog_standing
+  1: dog_sitting
+
+kpt_shape: [6, 3]
+keypoints:
+  - Nose
+  - Left Ear
+  - Right Ear
+  - Left Eye
+  - Right Eye
+  - Tail
+
+
+
