@@ -10,10 +10,10 @@ st.title(
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 images = {
-    "Image 1": ("Image1.jpg", "pred_Image1.jpg"),
-    "Image 2": ("Image2.jpg", "pred_Image2.jpg"),
-    "Image 3": ("Image3.jpg", "pred_Image3.jpg"),
-    "Image 4": ("Image4.jpg", "pred_Image4.jpg"),
+    "Image 1": ("Image1.jpg", "Pred_Image1.jpg"),
+    "Image 2": ("Image2.jpg", "Pred_Image2.jpg"),
+    "Image 3": ("Image3.jpg", "Pred_Image3.jpg"),
+    "Image 4": ("Image4.jpg", "Pred_Image4.jpg"),
 }
 
 choice = st.selectbox(
